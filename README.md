@@ -15,3 +15,11 @@
 - **_3-D_** Time Series Clustering
 
 --- ---
+
+## Optimal Number of Clusters
+
+- Elbow Method
+- Sillhoute Method
+- 
+
+--- ---
