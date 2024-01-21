@@ -20,6 +20,12 @@
 
 - Elbow Method
 - Sillhoute Method
-- 
+
+--- ---
+
+## 1-D PV
+
+ - Optimal number of Clusters are 4 using Inertia Method
+ - Optimal number of Clusters are 4 using Sillhoute Method
 
 --- ---
