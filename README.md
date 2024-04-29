@@ -4,7 +4,7 @@
 
 ## Work
 
-1. Usmnab Bhai Referred Code Example
+1. Usmab Bhai Referred Code Example
 
 --- ---
 
