@@ -1,31 +1,19 @@
-# K-Means
+# Calculator
+[source](https://tailwindcss.com/docs/installation/using-postcss)
 
 --- ---
 
-## Work
+## Calculator app in Angular
 
-1. Usmab Bhai Referred Code Example
+- libraries
 
---- ---
+```commandline
+npm add @angular/material
 
-## Today Task
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init
 
-- **_1-D_** Time Series Clustering
-- **_2-D_** Time Series Clustering
-- **_3-D_** Time Series Clustering
-
---- ---
-
-## Optimal Number of Clusters
-
-- Elbow Method
-- Sillhoute Method
-
---- ---
-
-## 1-D PV
-
- - Optimal number of Clusters are 4 using Inertia Method
- - Optimal number of Clusters are 4 using Sillhoute Method
+ng serve --open
+```
 
 --- ---
