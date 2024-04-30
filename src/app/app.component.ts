@@ -26,8 +26,11 @@ export class AppComponent {
   //#endregion
 
   //#region add click function for button
-  onClickFunc(value: number){
-
+  onClickFunc(value?: string, type?: string): void{
+    if(value && value === "c"){
+      this.result = 0;
+      this.currentFunction = 'No Function';
+    }
   }
   //#endregion
 
