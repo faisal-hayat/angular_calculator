@@ -17,3 +17,15 @@ ng serve --open
 ```
 
 --- ---
+
+## Frontend
+
+- Caclculator screen
+
+--- ---
+
+## Backend
+
+- Implement logic for buttons
+
+--- ---
