@@ -18,6 +18,7 @@ export class AppComponent {
   //#region define props here
   result: number = 0;
   currentFunction: string = 'No Function';
+  calNumber: string = 'noValue';
   //#endregion
 
   //#region constructor
@@ -26,12 +27,21 @@ export class AppComponent {
   //#endregion
 
   //#region add click function for button
-  onClickFunc(value?: string, type?: string): void{
-    if(value && value === "c"){
-      this.result = 0;
-      this.currentFunction = 'No Function';
+  onClickFunc(value: string, type?: string): void{
+    if(type === 'number'){
+      this.onNumberClick(value);
     }
   }
   //#endregion
-
+  
+  //#region number function
+  onNumberClick(value: string){
+    if(this.calNumber !== 'noValue'){
+      this.calNumber = this.calNumber + value;
+    }else{
+      this.calNumber = value;
+    }
+    this.result = parseFloat(this.calNumber);
+  }
+  //#endregion
 }
